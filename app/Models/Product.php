@@ -13,7 +13,7 @@ class Product extends Model
         'category_id',
     ];
 
-    //  Mộĩ Product thuộc về 1 Category
+    //  Mỗi Product thuộc về 1 Category
     public function category()  {
         return $this->belongsTo(Category::class);
     }
