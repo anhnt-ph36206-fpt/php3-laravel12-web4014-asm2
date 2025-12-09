@@ -7,13 +7,14 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
+
 </head>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center">
+            <a class="navbar-brand d-flex align-items-center" href="{{ route('products.index') }}">
                 <img src="{{ asset('/assets/img/cellphones.png') }}" alt="logo" width="35" class="me-2">
                 <span style="color:white;font-size:22px;font-weight:bold;">MyShop</span>
             </a>

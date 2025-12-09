@@ -46,5 +46,25 @@ class CategorySeeder extends Seeder
         Category::create([
             'name' => 'Ipods',
         ]);
+
+        // Category::create([
+        //     'name' => 'Ram',
+        // ]);
+
+        // Category::create([
+        //     'name' => 'SSD',
+        // ]);
+
+        // Category::create([
+        //     'name' => 'Quạt Tản Nhiệt',
+        // ]);
+
+        // Category::create([
+        //     'name' => 'Tai Nghe'
+        // ]);
+
+        // Category::create([
+        //     'name' => 'Sạc Dự Phòng',
+        // ]);
     }
 }

@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\Product;
 use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
@@ -28,8 +29,15 @@ class DatabaseSeeder extends Seeder
         // ]);
         
         //  Thêm Seeder ProductSeeder vào DatabaseSeeder
-        $this->call([
-            ProductSeeder::class,
-        ]);
+        // $this->call([
+        //     ProductSeeder::class,
+        // ]);
+
+        // $tenSanPhams = ['Ram 16', 'SSD 512', 'Quạt tản nhiệt 2 cánh', 'Tai nghe không dây Gaming Atrox', 'Sạc dự phòng Ugreen'];
+        // foreach ($tenSanPhams as $key => $value) {
+        //     Product::factory()->create[
+            
+        // ];
+        // }
     }
 }
